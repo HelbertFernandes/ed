@@ -1,0 +1,78 @@
+{
+	"name": "helbertfernandes/ed",
+	"description": "Easy Data Framework - Database reverse engineering for view and CRUD",
+	"keywords": [
+		"database",
+		"mysql", "mssql", "oracle", "postgresql",
+		"reverse", "engineering",
+		"framework",
+		"crud", "forms", "filters"
+	],
+	"version": "1.0.0",
+	"minimum-stability": "dev",
+	"time": "2021-10-01",
+	"type": "library",
+	"license": "MIT",
+	"authors": [{
+		"name": "Helbert Fernandes",
+		"email": "helbert@EstaleiroWeb.com.br",
+		"homepage": "http://EstaleiroWeb.com.br",
+		"role": "Owner"
+	}, {
+		"name": "Helbert Fernandes",
+		"email": "helbertfernandes@gmail.com",
+		"homepage": "http://EstaleiroWeb.com.br",
+		"role": "Developer, Translator, DBA, Maintainer, Checker, Support"
+	}],
+	"support": {
+		"email": "helbertfernandes@gmail.com"
+	},
+	"homepage": "http://estaleiroweb.com.br/",
+	"funding": [{
+		"type": "estaleiroweb",
+		"url": "http://estaleiroweb.com.br/"
+	}],
+	"readme": "README.md",
+	"extra": {},
+	"scripts": {},
+	"autoload-dev": {
+		"psr-4": {}
+	},
+	"require-dev": {},
+	"conflict": {},
+	"suggest": {},
+	"autoload": {
+		"files": [
+			"src/helpers.php"
+		],
+		"psr-4": {
+			"": "/",
+			"EstaleiroWeb\\ED\\": "src/",
+			"EstaleiroWeb\\Traits\\": "traits/",
+			"EstaleiroWeb\\Cache\\": "cache/"
+		},
+		"exclude-from-classmap": []
+	},
+	"require": {
+		"php": ">=5.4",
+		"ext-pdo": "*",
+		"ext-pdo_mysql": "*",
+		"ext-mysqli": "*",
+		"ext-session": "*",
+		"ext-ctype": "*",
+		"ext-dom": "*",
+		"ext-fileinfo": "*",
+		"ext-gd": "*",
+		"ext-iconv": "*",
+		"ext-libxml": "*",
+		"ext-mbstring": "*",
+		"ext-simplexml": "*",
+		"ext-xml": "*",
+		"ext-xmlreader": "*",
+		"ext-xmlwriter": "*",
+		"ext-zip": "*",
+		"ext-zlib": "*",
+		"components/jquery": "*",
+		"components/bootstrap": "*"
+	}
+}
