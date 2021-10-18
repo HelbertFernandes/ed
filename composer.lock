@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88b28227f59c5b9b595e798fe3e5e6dd",
+    "content-hash": "b8b70da725e62e5b4a288f526bb7994d",
     "packages": [
         {
             "name": "components/bootstrap",
-            "version": "4.x-dev",
+            "version": "4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/bootstrap.git",
@@ -69,13 +69,13 @@
             ],
             "support": {
                 "issues": "https://github.com/components/bootstrap/issues",
-                "source": "https://github.com/components/bootstrap/tree/4"
+                "source": "https://github.com/components/bootstrap/tree/4.6.0"
             },
             "time": "2021-01-23T18:24:55+00:00"
         },
         {
             "name": "components/jquery",
-            "version": "dev-master",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
@@ -87,7 +87,6 @@
                 "reference": "6cf38ee1fd04b6adf8e7dda161283aa35be818c3",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "component",
             "extra": {
                 "component": {
@@ -126,12 +125,12 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.4",
+        "php": ">=7.0",
         "ext-pdo": "*",
         "ext-pdo_mysql": "*",
         "ext-mysqli": "*",
