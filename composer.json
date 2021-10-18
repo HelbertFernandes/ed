@@ -9,7 +9,6 @@
 		"crud", "forms", "filters"
 	],
 	"version": "1.0.0",
-	"minimum-stability": "dev",
 	"time": "2021-10-01",
 	"type": "library",
 	"license": "MIT",
