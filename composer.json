@@ -54,7 +54,7 @@
 		"exclude-from-classmap": []
 	},
 	"require": {
-		"php": ">=5.4",
+		"php": ">=7.0",
 		"ext-pdo": "*",
 		"ext-pdo_mysql": "*",
 		"ext-mysqli": "*",
