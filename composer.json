@@ -8,6 +8,7 @@
 		"framework",
 		"crud", "forms", "filters"
 	],
+	"version": "1.0.0",
 	"time": "2021-10-01",
 	"type": "library",
 	"license": "MIT",
