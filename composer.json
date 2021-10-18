@@ -8,7 +8,7 @@
 		"framework",
 		"crud", "forms", "filters"
 	],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minimum-stability": "stable",
 	"time": "2021-10-01",
 	"type": "library",
